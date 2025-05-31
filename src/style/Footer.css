@@ -1,0 +1,25 @@
+/* src/style/Footer.css */
+.footer {
+  background-color: #1976d2;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer-text {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.footer-link,
+.footer-link:visited,
+.footer-link:active {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #f990c1 !important;
+  text-decoration: underline;
+}

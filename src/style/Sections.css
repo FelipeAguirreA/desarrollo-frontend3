@@ -1,0 +1,46 @@
+/* Sections.css */
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 16px rgba(219, 21, 203, 0.15);
+}
+
+.shake-effect {
+  animation: shake 0.4s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(8px); }
+  60% { transform: translateX(-8px); }
+  80% { transform: translateX(8px); }
+  100% { transform: translateX(0); }
+}
+
+.elegant-zoom-effect {
+  transform: scale(1.08);
+  box-shadow: 0 8px 32px 0 rgba(219, 21, 203, 0.25), 0 0 16px 2px #e1bee7;
+  filter: brightness(1.08) saturate(1.2);
+  transition: transform 0.4s cubic-bezier(.25,.8,.25,1), box-shadow 0.4s, filter 0.4s;
+}
+
+@keyframes colorShadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(219, 21, 203, 0.0);
+  }
+  50% {
+    box-shadow: 0 0 32px 8px rgba(219, 21, 203, 0.5), 0 0 16px 2px #e1bee7;
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(219, 21, 203, 0.0);
+  }
+}
+
+.color-shadow-effect {
+  animation: colorShadow 0.7s cubic-bezier(.25,.8,.25,1);
+}

@@ -1,0 +1,9 @@
+/* src/style/Header.css */
+.header {
+  background-color: #8e44ad;
+}
+
+.title {
+  flex-grow: 1;
+  font-family: 'Segoe UI', sans-serif;
+}

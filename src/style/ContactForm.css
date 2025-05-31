@@ -1,0 +1,19 @@
+/* src/style/ContactForm.css */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.MuiModal-root .MuiBox-root {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Botón de Aceptar en el modal */
+.MuiModal-root .MuiButton-root {
+  margin-top: 15px;
+}
