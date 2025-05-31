@@ -2,6 +2,9 @@
 
 Este proyecto es una landing page desarrollada con React y Material-UI (MUI), diseñada para ser responsiva, accesible y fácil de usar. La aplicación cuenta con componentes reutilizables, navegación interactiva, un formulario de contacto, y un carrusel de imágenes que se adapta a distintos dispositivos.
 
+## Proxy
+- Utilizacion de proxy: https://cors-anywhere.herokuapp.com/corsdemo para la carga de los endpoints utilizados en: Quienes somos, Productos/Servicios y Preguntas Frecuentes. 
+
 ## Estructura
 - `/components`: componentes reutilizables
 - `/style`: estilos por componente
@@ -9,6 +12,7 @@ Este proyecto es una landing page desarrollada con React y Material-UI (MUI), di
 - `/public`: Archivos estáticos públicos (imágenes, favicon, index.html).
 - `/App.jsx`: Componente raíz donde se integran los componentes principales y se controla el tema (modo claro/oscuro).
 - `/main.jsx`: Punto de entrada que renderiza la aplicación.
+- Utilizacion
 
 ## Convenciones
 - Componentes: `PascalCase.jsx`
